@@ -1,0 +1,30 @@
+caption {
+  caption-side: top;
+}
+
+.table-dark {
+  --bs-table-bg: #0d6efd;
+}
+
+.col-lg-8 {
+  img {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+// Custom CSS styles
+.btn-light:hover {
+  color: white;
+  background: #333;
+}
+
+figure .figure {
+  display: inline;
+}
