@@ -25,6 +25,11 @@ caption {
   background: #333;
 }
 
-figure .figure {
-  display: inline;
+.transition-img {
+  opacity: 0.5;
+  transition: opacity 1s;
+}
+
+.transition-img:hover {
+  opacity: 1;
 }
