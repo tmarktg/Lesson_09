@@ -22,11 +22,15 @@ caption {
   background: #333;
 }
 
-.transition-img {
-  opacity: 0.5;
-  transition: opacity 1s;
+@media (min-width: 990px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
 }
-
-.transition-img:hover {
-  opacity: 1;
+@media (max-width: 500px) {
+  body {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=custom.css.map */
